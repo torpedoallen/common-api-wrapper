@@ -5,10 +5,6 @@ import requests
 
 
 class Client(object):
-    """
-    A class that has all the logic for communicating with Trello and returning
-    information to the user
-    """
 
     def __init__(self, api_key, user_auth_token=None):
         self.api_key = api_key
